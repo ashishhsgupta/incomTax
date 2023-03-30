@@ -7,8 +7,9 @@ html,body{
 .container{
     display: flex;
     height: 5.5rem;
-    width: auto;
-    background-color: aqua;
+    width:100%;
+    background-color:white;
+    position:relative;
 }
 .MyImg{
     padding-left: 7rem;
@@ -17,37 +18,126 @@ html,body{
     
 }
 .Call{
-    width: 6rem;
-    background: yellow;
-    height: 1.9rem;
+    width: 6.9rem;
+    background:white;
+    height: 1.4rem;
+    margin-top: 25px;
+    color: rgba(77, 73, 73, 0.829);
+    border-right: 2px solid rgba(194, 196, 192, 0.904);
 }
+#us{
+    background-color: white;
+    border: none;
+    color: rgba(77, 73, 73, 0.829);
+    font-size: 15px;
+    font-family: Bahnschrift SemiBold;
+}
+.arrow {
+    border: solid rgba(77, 73, 73, 0.829);
+    border-width: 0 1px 1px 0;
+    display: inline-block;
+    padding: 3px;
+  }
+  .up {
+    transform: rotate(-135deg);
+    -webkit-transform: rotate(-135deg);
+  }
+
 .Language{
-    width: 6rem;
-    background: rgb(97, 97, 37);
-    height: 1.9rem;
+    width: 6.9rem;
+    background:white;
+    height: 1.4rem;
+    margin-top: 25px;
+    color: rgba(77, 73, 73, 0.829);
+    border-right: 2px solid rgba(194, 196, 192, 0.904);
+    margin-left: 20px;
+}
+#lang{
+    background-color: white;
+    border: none;
+    color: rgba(77, 73, 73, 0.829);
+    font-size: 15px;
+    font-family: Bahnschrift SemiBold;
+    
 }
 .Menu .A,.B,.C{
-    width: 3rem;
-    background: rgb(208, 208, 113);
+    width: 2rem;
     height: 1.9rem; 
+    margin-inline: 7px;
+    
 }
 .Dark{
     width: 3rem;
-    background: rgb(208, 208, 113);
-    height: 1.9rem;    
+    margin-top: 25px;
+    height: 1.9rem;  
+    border-right: 2px solid rgba(194, 196, 192, 0.904);  
+    height: 1.4rem;
 }
 .Login{
-    height: 1.9rem;
+    height: 2rem;
     width: 4.3rem;
+    border-radius: 5px;
+    border: solid 1px #2a3a8d;
+    padding-top: 8px;
+    padding-right: 16px;
+    padding-bottom: 8px;
+    padding-left: 16px;
 }
 .Register{
     height: 1.9rem;
     width: 4.7rem;
-    background-color: blue;
+    background-color: rgb(43, 29, 124);
     color: white;
+    border-radius: 5px;
+    border: none;
 }
-.Main,.float{
-    position:fixed;
-    display: flex;
-
+.Main{
+   display: flex;
+   position:relative;
+   margin-left: 20%;
+}
+.Menu{
+    height: 1.9rem;
+    margin-top: 25px;
+    color: rgba(77, 73, 73, 0.829);
+}
+.A{
+    font-size: 20px;
+    color: rgba(77, 73, 73, 0.829);
+    padding: 0;
+    border: none;
+    background: none;
+}
+.B{
+    font-size: 20px;
+    color: white;
+    padding: 0;
+    border: none;
+    background-color: blue;
+    border-radius: 5px;
+}
+.C{
+    font-size: 15px;
+    color: rgba(77, 73, 73, 0.829);
+    padding: 0;
+    border: none;
+    background: none;
+    border-right: 2px solid rgba(194, 196, 192, 0.904);
+    height: 1.4rem;
+}
+.Login{
+    background-color: white;
+    border-color: black;
+    color: rgba(77, 73, 73, 0.829);
+    font-size: 15px;
+    font-family: Bahnschrift SemiBold;
+    margin-left: 32px
+   
+}
+.Button{
+    border: none;
+    color: rgba(77, 73, 73, 0.829);
+    font-size: 15px;
+    font-family: Bahnschrift SemiBold;
+    margin-top: 29px; 
 }

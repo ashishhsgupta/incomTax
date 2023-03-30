@@ -1,0 +1,7 @@
+.Menu-bar{
+    height: 3rem;
+    background-color: rgb(8, 8, 180);
+}
+.Navbar,.user, li{
+    float: left;
+}
