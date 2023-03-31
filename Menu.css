@@ -33,7 +33,8 @@
 .btn{
  background-color: blue;
  color: white;
- border: solid 2px white;
+ border:none;
+ border-radius: 5px;
 }
 .navlist a:before{
     content: "";
@@ -47,6 +48,63 @@ background-color:white;
 .navlist a:hover:before{
  width: 100%;
  background-color: white;
+}
+.Page{
+    background-color: brown;
+    width: 82%;
+    height: 100%;
+    margin: auto;
+    margin-top: 20px;
+    display: flex;
+}
+.leftmenu{
+    width: 30%;
+    height: 80%;
+    background-color: #eeeff6;
+}
+.topmess{
+    width: 67%;
+    height: 8%;
+    background-color:#eeeff6;
+    margin-left: 3%;
+    position: relative;
+    border-radius: 5px;
+    border: 2px solid rgb(183, 236, 183);
+}
+.run{
+  
+    width: 93%;
+    height: 25px;
+   margin-top: 15px;
+    margin-left: 15px;
+    text-align: center;
+    align-items: center
+}
+marquee{
+    font-size:18px;
+    font-weight:bold;
+    color: red;
+    position:fixed;
+}
+.run, #play{
+    display: flex;
+    justify-content: space-around;
+    align-items:right;
+    position:relative;
+    color: blue;
+}
+marquee,#play{
+    width: auto;
+   position: relative;
+   padding-left: 20px;
+}
+.quick{
+    text-decoration: underline;
+    padding: 16px 0 !important;
+    font-size: 24px;
+    line-height: 1.17;
+    letter-spacing: -0.38px;
+    margin-left: 25px
 }
 
 
