@@ -99,13 +99,40 @@ marquee,#play{
    padding-left: 20px;
 }
 .quick{
-    text-decoration: underline;
+    /* text-decoration: underline; */
     padding: 16px 0 !important;
     font-size: 24px;
     line-height: 1.17;
     letter-spacing: -0.38px;
     margin-left: 25px
 }
+span{
+    border-bottom: 4px solid rgb(56, 48, 215);
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+}
+ div.downmenu,p{
+    background-color: white;
+    /* width: 90%; */
+    height: 87%;
+    margin-left: 37px;
+    overflow-y: auto;
+    text-align: justify;
+}
+div p{
+    height: 10%;
+}
+
+/* div.downmenu {
+    margin:4px, 4px;
+    padding:4px;
+    background-color: green;
+    width: 500px;
+    height: 110px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    text-align:justify; */
+
 
 
 
