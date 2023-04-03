@@ -1,4 +1,4 @@
-*{
+  /* *{
     margin: 0;
     padding: 0;
 }
@@ -100,7 +100,7 @@ marquee,#play{
 }
 .quick{
     /* text-decoration: underline; */
-    padding: 16px 0 !important;
+    /* padding: 16px 0 !important;
     font-size: 24px;
     line-height: 1.17;
     letter-spacing: -0.38px;
@@ -114,16 +114,16 @@ span{
  div.downmenu,p{
     background-color: white;
     /* width: 90%; */
-    height: 87%;
+    /* height: 87%;
     margin-left: 37px;
     overflow-y: auto;
     /* text-align: justify; */
-    font-size: 15px;
-padding-top: 8px;
+    /* font-size: 15px;
+padding-top: 8px; */
 }
-div p{
-    height: 10%;
-}
+/* div p{
+    height: 10%; */ */
+} */
 
 /* div.downmenu {
     margin:4px, 4px;
@@ -135,7 +135,7 @@ div p{
     overflow-y: auto;
     text-align:justify; */}
 
-    .downmenu,p,i{
+    /* .downmenu,p,i{
        size: 20px;
     }
     .e-head1 {
@@ -146,8 +146,10 @@ div p{
     width: 223.5%;
     height: 100%;
     background-color: #eeeff6;
+    position: relative;
     }
-
-
-
-
+    .e-fill{
+        margin-left: 20px;
+    } */
+   
+  */
