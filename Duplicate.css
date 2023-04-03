@@ -1,0 +1,50 @@
+html,body{
+    width: 100%;
+    height: 100%;
+
+}
+.maincontainer{
+    width: 100%;
+  
+}
+header{
+    height: 70px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color:white;
+
+}
+.logo{
+    margin-left: 50px;
+    padding-top: 11px;
+}
+header .navigation-links{
+    width: 100%;
+    display: flex;
+    justify-content: center; 
+    margin-top: -30px;
+
+}
+    .navigation-links{
+        margin-left: 75px;
+    }
+header .navigation-links a.active{
+    color: rgb(52, 34, 133);
+    font-weight: bolder;
+}
+a{
+    background-color: transparent;
+    text-decoration: none;
+    margin-inline: 20px
+   
+}
+.navigation-links a{
+    margin-left: 40px;
+    font-weight: bolder;
+    color: rgba(31, 28, 28, 0.911);
+   
+}
+
+
+
+
